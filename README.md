@@ -4,17 +4,24 @@ Game with simple Box
 The game provides a straightforward and addictive experience. The main objective is to progress through multiple levels, each with its own set of challenges. Players must collect coins scattered randomly across the map to reach a certain score and advance to the next level. However, they must be cautious of enemies that will attempt to hinder their progress.
 
 ## Game Elements
-GameManager: Controls the game logic, including enemy generation, difficulty management, and tracking the player's score.
+![App Screenshot](https://i.imgur.com/vwEtWVV.jpeg)   
+### GameManager: 
+Controls the game logic, including enemy generation, difficulty management, and tracking the player's score.
 
-Pool Manager: Manages the recycling and reusing of game resources, such as bullets and game objects, to optimize performance and improve efficiency.
+### Pool Manager: 
+Manages the recycling and reusing of game resources, such as bullets and game objects, to optimize performance and improve efficiency.
 
-MapGenerator: Generates the game environment, including maps and the distribution of elements such as coins and enemies.
+### MapGenerator: 
+Generates the game environment, including maps and the distribution of elements such as coins and enemies.
 
-UI Manager: Controls the game's user interface, displaying relevant information such as the current score, number of lives, and other UI elements.
+### UI Manager: 
+Controls the game's user interface, displaying relevant information such as the current score, number of lives, and other UI elements.
 
-Allocate Elements: Distributes elements on the map, such as coins and lives, to provide additional challenges and rewards to the player.
+### Allocate Elements: 
+Distributes elements on the map, such as coins and lives, to provide additional challenges and rewards to the player.
 
-Camera: Follows the player in the game to ensure they are always centered on the screen and can see their surroundings clearly.
+### Camera: 
+Follows the player in the game to ensure they are always centered on the screen and can see their surroundings clearly.
 
 ## Game Architecture
 The game's architecture is based on a modular and componentized approach, where each game element has specific responsibilities. The Singleton pattern is used to ensure the uniqueness of certain objects and facilitate communication between them. This provides a clear and maintainable structure, allowing for efficient future expansions and improvements to the game.
