@@ -2,6 +2,14 @@
 Game with simple Box    
 ![App Screenshot](https://i.imgur.com/kzoTbFG.jpeg)    
 The game provides a straightforward and addictive experience. The main objective is to progress through multiple levels, each with its own set of challenges. Players must collect coins scattered randomly across the map to reach a certain score and advance to the next level. However, they must be cautious of enemies that will attempt to hinder their progress.
+"The Cube" is a minimalist arcade-style game featuring a cube protagonist navigating through levels with the following key objectives:
+
+- Collect coins scattered throughout the map to increase score
+- Progress through multiple levels with increasing difficulty
+- Avoid enemies that attempt to impede the player's progress
+- Manage limited lives while navigating challenging environments
+
+
 
 ![App Screenshot](https://i.imgur.com/vwEtWVV.jpeg)        
 
